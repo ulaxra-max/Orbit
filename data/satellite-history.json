@@ -99,8 +99,22 @@
         "oneweb": "https://celestrak.org/NORAD/elements/gp.php?GROUP=ONEWEB&FORMAT=JSON"
       },
       "errors": {}
+    },
+    {
+      "date": "2026-10-23",
+      "counts": {
+        "amazon": 391,
+        "oneweb": 651
+      },
+      "sources": {
+        "amazon": "https://celestrak.org/NORAD/elements/gp.php?GROUP=KUIPER&FORMAT=JSON",
+        "oneweb": "https://celestrak.org/NORAD/elements/gp.php?GROUP=ONEWEB&FORMAT=JSON"
+      },
+      "errors": {
+        "starlink": "HTTP Error 403: Forbidden"
+      }
     }
   ],
-  "last_checked": "2026-10-22T03:57:35+00:00",
+  "last_checked": "2026-10-23T03:56:42+00:00",
   "source": "https://celestrak.org/NORAD/documentation/gp-data-formats.php"
 }
