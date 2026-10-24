@@ -113,8 +113,22 @@
       "errors": {
         "starlink": "HTTP Error 403: Forbidden"
       }
+    },
+    {
+      "date": "2026-10-24",
+      "counts": {
+        "starlink": 11114,
+        "amazon": 391,
+        "oneweb": 651
+      },
+      "sources": {
+        "starlink": "https://celestrak.org/NORAD/elements/gp.php?GROUP=STARLINK&FORMAT=JSON",
+        "amazon": "https://celestrak.org/NORAD/elements/gp.php?GROUP=KUIPER&FORMAT=JSON",
+        "oneweb": "https://celestrak.org/NORAD/elements/gp.php?GROUP=ONEWEB&FORMAT=JSON"
+      },
+      "errors": {}
     }
   ],
-  "last_checked": "2026-10-23T03:56:42+00:00",
+  "last_checked": "2026-10-24T03:55:13+00:00",
   "source": "https://celestrak.org/NORAD/documentation/gp-data-formats.php"
 }
