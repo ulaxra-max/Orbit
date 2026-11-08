@@ -323,8 +323,22 @@
       "errors": {
         "starlink": "HTTP Error 500: Internal Server Error"
       }
+    },
+    {
+      "date": "2026-11-08",
+      "counts": {
+        "starlink": 11203,
+        "amazon": 391
+      },
+      "sources": {
+        "starlink": "https://celestrak.org/NORAD/elements/gp.php?GROUP=STARLINK&FORMAT=JSON",
+        "amazon": "https://celestrak.org/NORAD/elements/gp.php?GROUP=KUIPER&FORMAT=JSON"
+      },
+      "errors": {
+        "oneweb": "HTTP Error 500: Internal Server Error"
+      }
     }
   ],
-  "last_checked": "2026-11-07T04:12:39+00:00",
+  "last_checked": "2026-11-08T04:15:35+00:00",
   "source": "https://celestrak.org/NORAD/documentation/gp-data-formats.php"
 }
