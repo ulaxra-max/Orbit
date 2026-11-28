@@ -575,8 +575,22 @@
         "oneweb": "https://celestrak.org/NORAD/elements/gp.php?GROUP=ONEWEB&FORMAT=JSON"
       },
       "errors": {}
+    },
+    {
+      "date": "2026-11-28",
+      "counts": {
+        "amazon": 427,
+        "oneweb": 651
+      },
+      "sources": {
+        "amazon": "https://celestrak.org/NORAD/elements/gp.php?GROUP=KUIPER&FORMAT=JSON",
+        "oneweb": "https://celestrak.org/NORAD/elements/gp.php?GROUP=ONEWEB&FORMAT=JSON"
+      },
+      "errors": {
+        "starlink": "The read operation timed out"
+      }
     }
   ],
-  "last_checked": "2026-11-27T12:47:45+00:00",
+  "last_checked": "2026-11-28T12:00:09+00:00",
   "source": "https://celestrak.org/NORAD/documentation/gp-data-formats.php"
 }
